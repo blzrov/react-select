@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+.react-select__control--is-disabled {
+  background-color: #e9ecef !important;
+  border: 1px solid #ced4da !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.react-select__control {
+  border: 1px solid #ced4da !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.react-select__control--is-focused {
+  border-color: #86b7fe !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-control:valid {
+  border-color: #ced4da !important;
+  background-image: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+.form-control:invalid {
+  background-image: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-select-validated__control {
+  border-color: #dc3545 !important;
+}
+
+.react-select-validated__control--is-focused {
+  border-color: #dc3545 !important;
+  box-shadow: 0 0 0 0.25rem rgb(220 53 69 / 25%) !important;
 }
